@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-erd-vis",
+  "version": "1.0.0",
+  "description": "Mongoose schema to ERD generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antk99/mongoose-erd-vis"
+  },
+  "keywords": [
+    "mongoose",
+    "schema",
+    "ERD",
+    "database",
+    "visualization",
+    "graph",
+    "diagram"
+  ],
+  "main": "main.js",
+  "bin": {
+    "main": "./bin/main.js"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "mongoose": "^5.9.10",
+    "viz.js": "^2.1.2"
+  },
+  "author": "Anthony Kumar",
+  "license": "MIT"
+}
